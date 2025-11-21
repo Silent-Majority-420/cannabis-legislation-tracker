@@ -185,7 +185,7 @@ def save_bills_data(bills):
     """Save bills data to JSON file"""
     
     # Sort bills by last action date (most recent first)
-    bills.sort(key=lambda x: x.get('last_action_date', ''), reverse=True)
+    bills.sort(key=lambda x: x.get('last_action_date') or '', reverse=True)
     
     # Group by state for statistics
     states_with_bills = set(bill['state_name'] for bill in bills)

@@ -1,0 +1,32 @@
+# robots.txt for tracker.silentmajority420.com
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tracker.silentmajority420.com/sitemap.xml
+
+# Block access to specific files/directories if needed
+# Disallow: /private/
+# Disallow: /admin/
+
+# Crawl-delay (optional - helps prevent server overload)
+# User-agent: *
+# Crawl-delay: 1
+
+# Allow specific bots full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /

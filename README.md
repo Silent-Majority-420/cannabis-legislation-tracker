@@ -123,14 +123,14 @@ python scraper.py
 Review `bills.json` to find bills worthy of in-depth analysis:
 - Major policy changes (legalization, banking, rescheduling)
 - Bills with high potential for passage
-- Bills that align with your CBDT Framework insights
+- Bills that align with your BMDE Framework insights
 - Federal bills (always significant)
 
 ### 3. Create Analysis Articles
 
 For significant bills:
 1. Write a comprehensive analysis article on dankreports.com
-2. Apply the CBDT Framework to predict outcomes
+2. Apply the BMDE Framework to predict outcomes
 3. Publish the article and note its URL
 
 ### 4. Link Analysis to Bills
